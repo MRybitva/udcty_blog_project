@@ -1,0 +1,52 @@
+header {
+    background-color: #363636;
+}
+
+
+.main-menu {
+    padding: 10px 20px;
+}
+
+
+.main-menu,
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo a {
+    font-weight: 600;
+    letter-spacing: 0.05;
+    color: #0084ff;
+    text-decoration: underline;
+}
+
+
+.logo a:hover {
+    opacity: 0.65;
+}
+
+
+.logo,
+.header-cta {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+
+.menu {
+    list-style: none;
+}
+
+
+.menu-item a {
+    padding: 0 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.menu-item a:hover {
+    opacity: 0.65;
+}

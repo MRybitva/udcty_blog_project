@@ -1,0 +1,153 @@
+.single-post_overlay {
+    background: no-repeat center url(../../img/car-ac.png);
+    background-size: cover;
+    min-height: 40vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+.single-post__title {
+    margin-top: 0;
+}
+
+
+.single-post__subheading {
+    color: #3168c0;
+    text-decoration: underline;
+}
+
+
+.single-post__content h4 {
+    border-left: 3px solid #3168c0;
+    padding-left: 10px;
+}
+
+
+.single-post__date {
+    color: white;
+}
+
+
+.share-icon {
+    color: black;
+}
+
+
+.share-icon:hover,
+.mr_socials__email:hover {
+    opacity: 0.65;
+}
+
+
+.mr-socials {
+    text-align: center;
+}
+
+.mr-socials a {
+    margin: 0 10px;
+}
+
+
+.author-name {
+    font-weight: 700;
+}
+
+
+.author-avatar {
+    max-height: 100px;
+}
+
+
+.author-bio {
+    padding-left: 25px;
+    align-self: center;
+}
+
+
+.author-position {
+    padding: 10px 0;
+    color: #6d6d6d;
+    font-style: italic;
+}
+
+
+.author-company {
+    font-weight: 600;
+    color: #3168c0;
+}
+
+
+.single-post__author {
+    display: flex;
+}
+
+
+.single-post__subheading {
+    text-align: center;
+}
+
+#related-articles-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
+    padding-bottom: 100px;
+}
+
+.related-articles__headling {
+    font-size: 1.5rem;
+}
+
+.related-articles {
+    padding: 10px 20px 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+
+    #home-articles,
+    .page-heading {
+        display: block;
+    }
+
+    #home-articles {
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+
+    .menu {
+        padding-left: 0;
+    }
+
+
+    .menu-item {
+        align-self: center;
+    }
+
+
+    #home-articles .article-card {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+    }
+
+
+    #related-articles-wrapper {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+
+    .related-articles {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+}
